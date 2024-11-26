@@ -1,0 +1,23 @@
+<div class="flex bg-gray-200 justify-between items-center p-4">
+  <div class="items-center">
+    <p>Super marché Angular</p>
+    <p class="text-xs">
+      logged in as <code>{{ (user | async)?.email }}</code>
+    </p>
+  </div>
+
+  <button
+    *ngIf="showLoginButton"
+    (click)="loginWithGoogle()"
+    class="bg-blue-500 rounded-md px-2 py-1 text-white"
+  >
+    Connexion
+  </button>
+  <button
+    *ngIf="showLogoutButton"
+    (click)="logout()"
+    class="border border-red-500 text-red-500 rounded-md px-2 py-1"
+  >
+    <fa-icon [icon]="faArrowRightFromBracket"></fa-icon>
+  </button>
+</div>

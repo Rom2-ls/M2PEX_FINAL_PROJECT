@@ -1,0 +1,51 @@
+<div>
+  <form
+    [formGroup]="itemForm"
+    (ngSubmit)="addItem()"
+    class="flex flex-col gap-3"
+  >
+    <div class="flex flex-col">
+      <label for="name">Nom</label>
+      <input
+        type="text"
+        id="name"
+        formControlName="name"
+        class="border rounded-md"
+      />
+    </div>
+    <div class="flex flex-col">
+      <label for="description">Description</label>
+      <input
+        type="text"
+        id="description"
+        formControlName="description"
+        class="border rounded-md"
+      />
+    </div>
+    <div class="flex flex-col">
+      <label for="price">Prix</label>
+      <input
+        type="number"
+        id="price"
+        formControlName="price"
+        class="border rounded-md"
+      />
+    </div>
+    <div class="flex flex-col">
+      <label for="quantity">Quantité</label>
+      <input
+        type="number"
+        id="quantity"
+        formControlName="quantity"
+        class="border rounded-md"
+      />
+    </div>
+    <button
+      type="submit"
+      [disabled]="!itemForm.valid"
+      class="px-2 py-1 rounded-md bg-blue-500 text-white disabled:opacity-50 disabled:bg-gray-500"
+    >
+      Enregistrer
+    </button>
+  </form>
+</div>
