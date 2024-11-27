@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250305718339",
+    "project_id": "m2pex-final-project-2cb7f",
+    "storage_bucket": "m2pex-final-project-2cb7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250305718339:android:89a2e5270c818aa5554cf6",
+        "android_client_info": {
+          "package_name": "com.m2pex.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250305718339-pqgupf2f4femlc4cqj4qnum8h83lvtif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbityr3vU5FPlKR7kzANAln2u8BnFE34E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250305718339-pqgupf2f4femlc4cqj4qnum8h83lvtif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
