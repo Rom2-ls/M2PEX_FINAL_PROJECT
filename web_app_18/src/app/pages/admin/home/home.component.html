@@ -1,4 +1,59 @@
-<div>
-  <p>admin page</p>
+<div class="p-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <form
+      *ngFor="let item of items$ | async"
+      [formGroup]="forms[item.id]"
+      (ngSubmit)="updateItem(item)"
+      class="flex flex-col gap-2"
+    >
+      <label for="name">Nom</label>
+      <input
+        class="px-2 rounded border border-gray-300"
+        type="text"
+        id="name"
+        formControlName="name"
+      />
+
+      <label for="description">Description</label>
+      <textarea
+        class="px-2 rounded border border-gray-300"
+        id="description"
+        formControlName="description"
+        rows="4"
+      ></textarea>
+
+      <label for="price">Prix</label>
+
+      <input
+        class="px-2 rounded border border-gray-300"
+        type="number"
+        id="price"
+        formControlName="price"
+      />
+
+      <label for="quantity">Stock</label>
+      <input
+        class="px-2 rounded border border-gray-300"
+        type="number"
+        id="quantity"
+        formControlName="quantity"
+      />
+
+      <button
+        type="submit"
+        class="border border-blue-500 rounded text-blue-500 text-sm px-2"
+      >
+        Mettre à jour
+      </button>
+      <button
+        (click)="deleteItem(item.id)"
+        type="submit"
+        class="border border-red-500 rounded text-red-500 text-sm px-2"
+      >
+        Supprimer
+      </button>
+    </form>
+  </div>
+
   <app-item-form></app-item-form>
 </div>
