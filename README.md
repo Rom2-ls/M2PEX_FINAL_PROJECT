@@ -59,7 +59,7 @@ npm run start
 > Navigate to http://localhost:4200, connect through google and start using the app
 
 > [!WARNING]
-> PS: BORIS ROSE (please notify us so we can give you admin role when you sign in so you can all the features.)
+> PS: BORIS ROSE (please notify us so we can give you admin role when you sign in so you can use all the features.)
 
 -----
 
@@ -87,4 +87,6 @@ fvm flutter run
 
 > [!NOTE] 
 > The app should open itself, connect through google and start using the app.
+
+> [!WARNING]
 > PS: Check command line output for the link to the app in chrome.
