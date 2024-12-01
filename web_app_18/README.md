@@ -1,27 +1,59 @@
-# WebApp18
+<p align="center">
+    <a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/640px-Angular_full_color_logo.svg.png" width="100" alt="Angular Logo" /></a>
+    <a><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Firebase_Logo_%28No_wordmark%29_%282024-%29.svg" width="90" alt="Flutter Logo" /></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+<h1 align="center">Final Project <a href="https://angular.dev/">Angular</a>, <a href="https://flutter.dev/">Flutter</a> and <a href="https://firebase.google.com/">Firebase</a></h1>
+<h3 align="center"><i>(M2PEX_PROJECT_FINAL)</i></h3>
 
-## Development server
+<p align="center">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+</p>
 
-## Code scaffolding
+<p align="center">
+  <p align="center">
+     Shopping App (Angular part of the project) using <a href="https://angular.dev/">Angular</a> with <a href="https://firebase.google.com/">Firebase</a>.
+  </p>
+    <p align="center">.
+        <a href="https://github.com/hugo-HDSF/M2PEX_PROJECT_FINAL/issues">Report Bug</a>
+        .
+        <img src="https://img.shields.io/github/license/ucan-lab/docker-laravel" alt="License" height="15">
+    </p>
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<div align="center">
 
-## Build
+![Angular](https://img.shields.io/badge/-Angular_18-DD0031?logo=angular&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS_3.4-38B2AC?logo=tailwind-css&logoColor=white)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</div>
 
-## Running unit tests
+<div align="center">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Typescript](https://img.shields.io/badge/-Typescript_5.1-3178C6?logo=typescript&logoColor=white)
 
-## Running end-to-end tests
+</div>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+-----
 
-## Further help
+## Setup
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Run the following to start the project:
+
+### Angular:
+
+#### Local:
+```shell
+cd web_app_18
+nvm install
+nvm use
+json-server --watch db/db.json
+npm run start
+```
+
+> [!NOTE] 
+> Navigate to http://localhost:4200, connect through google and start using the app
+
+> [!WARNING]
+> PS: BORIS ROSE (please notify us so we can give you admin role when you sign in so you can all the features.)
